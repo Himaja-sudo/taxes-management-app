@@ -95,7 +95,7 @@ export default function Table({ data, onEdit }: TableProps) {
             ))}
           </thead>
           <tbody className="bg-white divide-y divide-gray-100">
-            {table.getRowModel().rows.map((row, index) => (
+            {table.getRowModel().rows.map((row) => (
               <tr
                 key={row.id}
                 className="hover:bg-gray-50/80 transition-all duration-150 ease-in-out group"
